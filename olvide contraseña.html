@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recuperar cuenta</title>
+    <link rel="shortcut icon" href="img/logoCTK.png">
+    <link rel="stylesheet" href="css/estiloR.css">
+    <style>
+        a{
+          color: white;
+          background-color: black;
+          padding: 5px 10px;
+          text-decoration:  none;
+          border-radius: 5px;
+        }
+      </style>
+</head>
+<body background="img/fondo.jpg">
+    <form style="color: black;">
+        <h2>Recuperar tu cuenta</h2>
+        <fieldset>
+            <h3>Correo Electronico</h3><br>
+            <input type="email" name="correo" id="" placeholder="Correo Electronico"required>
+            <h3>Contraseña Nueva</h3>
+            <input type="password" name="contraseña" id="" placeholder="Contraseña nueva"required> <br>
+
+            <!--<br><input type="submit" value="Enviar">-->
+
+            <br><br>
+            <button onclick="Enviar()">Enviar</button>
+
+            <script type="text/javascript">
+                function Enviar(){
+
+                    swal('Cuenta recuperada','Gracias por contar con nosotros :)','success');
+                }
+
+            </script>
+
+        </fieldset>
+    </form>
+    <br><a href="login.html">Regresar</a>
+    <script SameSite="None; Secure" src="https://static.landbot.io/landbot-3/landbot-3.0.0.js"></script>
+    <script>
+     var myLandbot = new Landbot.Livechat({
+     configUrl: 'https://chats.landbot.io/v3/H-1014018-J8WL8K3KA2VF19L3/index.json',
+     });
+    </script>
+    <table>
+        <tr>
+            <td style= "color:black;">CineTettaKisaki&copy;</td>
+            <td style= "color:black;">Direccion: Calle las Vegas, Cercado de Lima, Perú<br>cel: 923298140</td>
+            <td style= "color:black;">Desarrollado por el GRUPO 1&copy;</td>
+        </tr>
+    </table>
+</body>
+</html>

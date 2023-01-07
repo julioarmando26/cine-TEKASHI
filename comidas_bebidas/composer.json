@@ -1,0 +1,22 @@
+{
+    "name": "cinetettakisaki/comidas_bebidas",
+    "description": "creacion de una pagina de comidas y bebidas",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "julio quispe martel",
+            "email": "julio.jqm.22@gmail.com"
+        }
+    
+       
+    ],
+    "require": {
+        
+    },
+    "autoload": {
+        "psr-4": {
+            "Kawschool\\":"src/"
+        }
+    }
+}
